@@ -18,7 +18,7 @@ header .navbar a:hover {
 }
 
 header a.logo {
-  font-family: adobe-garamond-pro, serif;
+  font-family: josefin-sans, sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 1.7em;
@@ -52,7 +52,7 @@ header .custom-toggler.navbar-toggler {
 }
 
 header .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(170, 122, 49, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(237, 192, 191, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 body {
@@ -60,7 +60,7 @@ body {
 }
 
 p {
-  font-family: montserrat, sans-serif;
+  font-family: josefin-sans, sans-serif;
   font-weight: 300;
   font-style: normal;
 }
@@ -91,14 +91,16 @@ p {
   font-weight: 400;
   font-style: normal;
   z-index: 2;
-  font-size: 2.5em;
+  font-size: 7em;
   padding-left: 2rem;
 }
 
 .home #sub {
   color: #422939;
-  font-weight: 500;
-  font-size: 1.3em;
+  font-size: 2em;
+  font-family: josefin-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .home #learn button {
@@ -122,6 +124,8 @@ p {
   -ms-flex-item-align: start;
       align-self: flex-start;
   margin-left: 2rem;
+  margin-bottom: 3em;
+  margin-top: 1em;
   opacity: 0.0;
   -webkit-animation: fadeinless 2s 1 forwards, separator-width 1s ease-out forwards;
           animation: fadeinless 2s 1 forwards, separator-width 1s ease-out forwards;
@@ -156,7 +160,7 @@ p {
     text-align: center;
   }
   .home .centered {
-    font-size: 3em;
+    font-size: 5em;
     padding-top: 35vh;
   }
   #sub {
@@ -180,7 +184,7 @@ p {
     text-align: center;
   }
   .home .centered {
-    font-size: 3.5em;
+    font-size: 6em;
     padding-top: 35vh;
   }
   #sub {
@@ -205,7 +209,7 @@ p {
     text-align: center;
   }
   .home .centered {
-    font-size: 4.5em;
+    font-size: 7em;
     padding-top: 35vh;
   }
   #sub {
@@ -232,7 +236,7 @@ p {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-image: url("../images/blueback2.jpg");
+  background-image: url("../images/back.jpg");
   background-size: cover;
   background-color: #EDC0BF;
   color: #F3ECE7;
@@ -256,7 +260,7 @@ p {
 .myWork h3 {
   font-size: 20px;
   color: #EDC0BF;
-  font-family: adobe-garamond-pro, serif;
+  font-family: josefin-sans, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -356,8 +360,8 @@ p {
 }
 
 #contact label {
-  font-family: montserrat, sans-serif;
-  font-weight: 500;
+  font-family: josefin-sans, sans-serif;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -392,7 +396,7 @@ footer li a:hover {
 }
 
 h2, h3 {
-  font-family: adobe-garamond-pro, serif;
+  font-family: josefin-sans, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
