@@ -195,6 +195,7 @@ p {
         -ms-grid-row-align: center;
         align-self: center;
     margin-left: auto;
+    border-style: dashed;
   }
 }
 
@@ -206,7 +207,7 @@ p {
     font-size: 6em;
     padding-top: 35vh;
   }
-  #sub {
+  .home #sub {
     color: #422939;
     padding-left: 0;
     font-size: 2em
@@ -235,7 +236,7 @@ p {
     font-size: 7em;
     padding-top: 35vh;
   }
-  #sub {
+  .home #sub {
     color: #422939;
     padding-left: 0;
     font-size: 2em;
@@ -339,6 +340,8 @@ p {
   background-color: #E08585;
   border-color: #422939;
   color: #ffffff;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .btn-primary:hover {
@@ -502,7 +505,7 @@ iframe {
 .skill-bars {
   list-style: none;
   margin: 6rem -2.5rem;
-  width: 50%
+  width: 100%
 }
 .skill-bars li {
   height: .5rem;
@@ -517,14 +520,14 @@ iframe {
   left: 0;
   top: -2rem;
   font-family: "josefin-sans", sans-serif;
-  color: #313131;
+  color: #422939;
   text-transform: uppercase;
   font-size: 1rem;
   line-height: 2rem;
   font-weight: normal;
 }
 .skill-bars li .progress {
-  background: #313131;
+  background: #422939;
   position: relative;
   height: 100%;
 }
@@ -537,7 +540,7 @@ iframe {
   color: white;
   font-size: 1rem;
   line-height: 1;
-  background: #313131;
+  background: #422939;
   padding: .6rem .6rem;
   border-radius: 3px;
 }
@@ -548,7 +551,7 @@ iframe {
   margin-left: -5px;
   border-right: 5px solid transparent;
   border-left: 5px solid transparent;
-  border-top: 5px solid #313131;
+  border-top: 5px solid #422939;
   content: "";
 }
 
@@ -597,7 +600,7 @@ iframe {
 .section-intro h1 {
   font-family: "josefin-sans", serif;
   font-size: 3.6rem;
-  color: #313131;
+  color: #422939;
   line-height: 1.25;
   margin-bottom: 1.2rem;
 }
@@ -659,7 +662,7 @@ iframe {
 }
 .about-content .info-list li strong {
   font-family: "josefin-sans", sans-serif;
-  color: #313131;
+  color: #422939;
   text-transform: uppercase;
   letter-spacing: .2rem;
   font-size: 1.5rem;
@@ -678,6 +681,7 @@ iframe {
 
 .button-section {
   text-align: center;
+  display: block;
 }
 .button-section .button {
   width: 250px;
@@ -771,7 +775,7 @@ iframe {
   height: 4.8rem;
   width: 4.8rem;
   line-height: 4.8rem;
-  background: #313131;
+  background: #E08585;
   border-radius: 50%;
   text-align: center;
   color: #FFFFFF;
@@ -782,8 +786,7 @@ iframe {
 }
 #resume .timeline-ico i {
   position: relative;
-  left: .05rem;
-  top: .2rem;
+  scale: 1.5;
 }
 
 #resume .timeline-header {
@@ -797,7 +800,7 @@ iframe {
 }
 #resume .timeline-header p {
   font-family: "josefin-sans", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #888888;
 }
 #resume .timeline-content {
@@ -807,6 +810,7 @@ iframe {
 #resume .timeline-content h3 {
   position: relative;
   padding-bottom: 0.5rem;
+  font-weight: normal;
 }
 #resume .timeline-content h3::after {
   content: "";
@@ -824,6 +828,10 @@ iframe {
 @media only screen and (max-width:1024px) {
   #resume .timeline-header {
     padding-right: 50px;
+  }
+  #resume .resume-header h2 {
+  font-size: 2rem;
+  text-align: center;
   }
   #resume .timeline-header h3 {
     font-size: 1.8rem;
@@ -858,6 +866,10 @@ iframe {
   #resume .timeline-content {
     margin: 0;
   }
+   #resume .resume-header h2 {
+   font-size: 2rem;
+   text-align: center;
+  }
   #resume .timeline-content h3 {
     padding-bottom: 0;
     padding-top: 2.1rem;
@@ -878,7 +890,11 @@ iframe {
 }
 @media only screen and (max-width:480px) {
   #resume .resume-header h2 {
-    font-size: 2.2rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+   #resume .timeline-header h3 {
+   font-size: 1.5rem;
   }
   #resume .timeline-wrap::before {
     left: 1.8rem;
