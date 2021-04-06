@@ -10,7 +10,7 @@ header {
 }
 
 header .navbar a {
-  color: #F3ECE7;
+  color: #BAB5CB;
 }
 
 header .navbar a:hover {
@@ -22,11 +22,11 @@ header a.logo {
   font-weight: 700;
   font-style: normal;
   font-size: 1.7em;
-  color: #EDC0BF;
+  color: #E2B9CB;
 }
 
 header a.logo:hover {
-  color: #E08585;
+  color: #AE81A0;
 }
 
 header nav {
@@ -80,10 +80,10 @@ p {
   padding: 0;
   background-image: url("../images/Background-6.jpg");
   background-attachment: fixed;
-  background-color: #EDC0BF;
+  background-color: #E2B9CB;
   background-size: cover;
   height: 100vh;
-  color: #F3ECE7;
+  color: #BAB5CB;
 }
 
 .home .centered {
@@ -112,7 +112,7 @@ p {
 }
 
 .home #learn button:hover {
-  background-color: #E08585;
+  background-color: #AE81A0;
 }
 
 #hrabout {
@@ -265,8 +265,8 @@ p {
   height: fit-content;
   background-image: url("../images/back.jpg");
   background-size: cover;
-  background-color: #EDC0BF;
-  color: #F3ECE7;
+  background-color: #E2B9CB;
+  color: #BAB5CB;
   padding-top: 3.2rem;
   padding-bottom: 5rem;
 }
@@ -286,7 +286,7 @@ p {
 
 .myWork h3 {
   font-size: 20px;
-  color: #EDC0BF;
+  color: #E2B9CB;
   font-family: josefin-sans, sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -308,7 +308,7 @@ p {
 
 .myServices div.services {
   color: #01001fc4;
-  border: solid 2px #E08585;
+  border: solid 2px #AE81A0;
   border-radius: 10px;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -333,11 +333,11 @@ p {
 }
 
 .myServices #do {
-  color: #E08585;
+  color: #AE81A0;
 }
 
 .btn-primary {
-  background-color: #E08585;
+  background-color: #AE81A0;
   border-color: #422939;
   color: #ffffff;
   margin-right: 20px;
@@ -345,19 +345,19 @@ p {
 }
 
 .btn-primary:hover {
-  background-color: #E08585 !important;
-  border-color: #F3ECE7;
+  background-color: #AE81A0 !important;
+  border-color: #BAB5CB;
 }
 
 .btn-primary:active {
-  background-color: #E08585 !important;
+  background-color: #AE81A0 !important;
 }
 
 #contact {
   background-image: url("../images/Background-6.jpg");
   background-attachment: fixed;
   background-size: cover;
-  background-color: #F3ECE7;
+  background-color: #BAB5CB;
   color: #422939;
   padding-bottom: 0;
 }
@@ -407,7 +407,7 @@ footer {
 }
 
 footer p {
-  color: #F3ECE7;
+  color: #BAB5CB;
 }
 
 footer li {
@@ -416,14 +416,14 @@ footer li {
 }
 
 footer li a {
-  color: #F3ECE7;
+  color: #BAB5CB;
   font-size: 2em;
   -webkit-transition: .2s;
   transition: .2s;
 }
 
 footer li a:hover {
-  color: #E08585;
+  color: #AE81A0;
 }
 
 h2, h3 {
@@ -443,7 +443,7 @@ h3 {
 hr {
   color: #422939;
   width: 100px;
-  border: solid 1px #E7A3A2;
+  border: solid 1px #AE81A0;
   opacity: 0.7;
 }
 
@@ -489,7 +489,7 @@ hr {
 }
 
 iframe {
-  border: 1px solid #E08585;
+  border: 1px solid #AE81A0;
 }
 
 
@@ -775,7 +775,7 @@ iframe {
   height: 4.8rem;
   width: 4.8rem;
   line-height: 4.8rem;
-  background: #E08585;
+  background: #AE81A0;
   border-radius: 50%;
   text-align: center;
   color: #FFFFFF;
