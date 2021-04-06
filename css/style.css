@@ -889,6 +889,9 @@ iframe {
   width: 100%;
 }
 @media only screen and (max-width:480px) {
+  h2{
+    text-align: center;
+  }
   #resume .resume-header h2 {
     font-size: 2rem;
     text-align: center;
