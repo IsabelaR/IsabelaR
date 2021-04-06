@@ -434,7 +434,7 @@ h2, h3 {
 
 h2 {
   font-size: 2.5em;
-  text-align: left;
+  text-align: center;
 }
 
 h3 {
@@ -752,6 +752,7 @@ iframe {
 
 #resume .resume-timeline {
   max-width: 100%;
+  display: block;
 }
 #resume .timeline-wrap {
   position: relative;
@@ -890,6 +891,10 @@ iframe {
   width: 100%;
 }
 @media only screen and (max-width:480px) {
+  h3, p{
+    text-align: left;
+  }
+
   #resume .resume-header h2 {
     font-size: 2rem;
     text-align: center;
