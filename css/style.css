@@ -78,7 +78,7 @@ p {
 .home {
   text-align: left;
   padding: 0;
-  background-image: url("../images/Background-2.png");
+  background-image: url("../images/Background-6.jpg");
   background-attachment: fixed;
   background-color: #EDC0BF;
   background-size: cover;
@@ -354,7 +354,7 @@ p {
 }
 
 #contact {
-  background-image: url("../images/Background-2.png");
+  background-image: url("../images/Background-6.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-color: #F3ECE7;
