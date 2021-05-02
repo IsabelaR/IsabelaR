@@ -136,7 +136,7 @@ p {
 }
 
 #hrcontact{
-  margin-left: 0;
+  margin-left: auto;
 } 
 
 @-webkit-keyframes separator-width {
@@ -253,7 +253,7 @@ p {
     margin-left: auto;
   }
   #hrcontact{
-  margin-left: 0;
+  margin-left: auto;
   }
 }
 
@@ -434,6 +434,7 @@ h2, h3 {
 
 h2 {
   font-size: 2.5em;
+  text-align: center;
 }
 
 h3 {
